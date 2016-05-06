@@ -6,11 +6,8 @@
 <body style="background-color:black;">
     <script src="js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" href="css/my_styles.css" />
-<script src="js/my_javascript.js"></script>
 <script src="js/my_javascript.js"></script>
 <script src="js/bootstrap.min.js"></script>
-</head>
 
 <style>
 a:link, a:visited {
@@ -25,7 +22,13 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: red;
 }
+#paulone {
+  color: white;
+}
 </style>
+
+</head>
+
 
 <body>
   <script>
@@ -47,21 +50,26 @@ a:hover, a:active {
 
     <a href="exhibitions.html">Exhibitions</a>
 
-    <table style="width:930px; margin:0 auto;">
-  <tr>
-  <th><h2 style="color:white">ONE + ONE</h2><br><img src="images/st-louis-dupre.jpg" width="500px" height="350px" /></th>
-  <th><h2 style="color:white">PAUL SHAMBROOM: Lost</h2><br><img src="images/bode.jpg" width="500px" height="350px" /></th>
-  </tr>
-  <tr>
-  <td valign="top"><h6 style="color:white">Feb 12 2016 to May 22 2016</h6>
-  <p style="color:white">One + One is a Permanent Collection installation that brings together several artists who repeat signature motifs and or utilize techniques that establish distinct states of the same image with small changes to composition or density. Their works question the notion of singularity and...</p>
+<div id="paulone">
+  <div class="row">
 
-  </td>
-  <td  valign="top"><h6 style="color:white">Mar 4 2016 to May 22 2016</h6>
-  <p style="color:white">R. C. May Photography Lecture Series:
-PAUL SHAMBROOM: Lost </p>
+  <div class="col-md-6">
+  <h2>ONE + ONE</h2><br><img src="images/st-louis-dupre.jpg" width="500px" height="350px"/>
+  <h6>Feb 12 2016 to May 22 2016</h6>
+  <p>One + One is a Permanent Collection installation that brings together several artists who repeat signature motifs and or utilize techniques that establish distinct states of the same image with small changes to composition or density. Their works question the notion of singularity and...</p>
+  </div>
 
-In his recent series Lost, Paul Shambroom photographs weathered posters of missing pets, digitally enhancing aspects of the ghostly images. He abstracts the owners’ pleas into snippets of...</p></td>
-  </tr>
-  </table>
+  <div class="col-md-6">
+  <h2>PAUL SHAMBROOM: Lost</h2><br><img src="images/bode.jpg" width="500px" height="350px"/>
+  <h6>Mar 4 2016 to May 22 2016</h6>
+  <p>R. C. May Photography Lecture Series:
+  PAUL SHAMBROOM: Lost </p>
+
+  <p>In his recent series Lost, Paul Shambroom photographs weathered posters of missing pets, digitally enhancing aspects of the ghostly images. He abstracts the owners’ pleas into snippets of...</p>
+  </div>
+
+
+  </div>
+
+</div>
   </html>
